@@ -18,6 +18,11 @@ REST API demo for scholarshipowl.com
 <code>/api/scholarships</code> returns all scholarships within the MySQL database in JSON format. <br>
 <code>/api/scholarships/{id}</code> returns scholarship with {id} in JSON format.
 
+## Project Structure
+* <code>public/index.php</code> entry point of the API.
+* <code>test/</code> unit tests.
+* <code>src/config.php</code> project settings. <strong>Check this file before running.</strong>
+
 ## TODO
 * OAuth 2.0
 
