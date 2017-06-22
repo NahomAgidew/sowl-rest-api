@@ -1,8 +1,12 @@
 <?php
 
+/**
+ * Constant Configurations throughout the application.
+*/
 class Config {
-    public static $host = 'localhost';
-    public static $dbname = 'sowl';
-    public static $user = 'root';
-    public static $password = 'Showstopper$5';
+    public static $host = null;
+    public static $dbname = null;
+    public static $user = null;
+    public static $password = null;
+    public static $s_table = null;
 }
