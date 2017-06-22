@@ -14,3 +14,10 @@ REST API demo for scholarshipowl.com
 ## Testing
 <code>vendor/bin/toast</code>
 
+## Usage
+<code>/api/scholarships</code> returns all scholarships within the MySQL database in JSON format.
+<code>/api/scholarships/{id}</code> returns scholarship with {id} in JSON format.
+
+## TODO
+* OAuth 2.0
+
