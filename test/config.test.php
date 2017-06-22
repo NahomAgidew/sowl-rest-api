@@ -5,7 +5,7 @@ require './vendor/rb/rb.php';
 require './src/config.php';
 require './src/routes/api/scholarships.php';
 
-return function() : Generator {
+return function () : Generator {
     /** Test $host */
     yield function () {
         assert(!is_null(Config::$host));
@@ -25,5 +25,4 @@ return function() : Generator {
     yield function () {
         assert(!is_null(Config::$password));
     };
-
 };

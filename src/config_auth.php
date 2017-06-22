@@ -3,7 +3,8 @@
 /**
  * Constant Configurations OAuth 2.0 DB.
 */
-class ConfigAuth {
+class ConfigAuth
+{
     public static $host = null;
     public static $dbname = null;
     public static $user = null;

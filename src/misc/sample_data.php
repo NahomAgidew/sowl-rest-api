@@ -17,4 +17,3 @@ $s->amount = $scholarship.getAmont();
 $s->deadline = $scholarship.getDeadline();
 $s->detail = $scholarship.getDetail();
 R::store($s);
-

@@ -3,7 +3,8 @@
 /**
  * Constant Configurations throughout the application.
 */
-class Config {
+class Config
+{
     public static $host = null;
     public static $dbname = null;
     public static $user = null;

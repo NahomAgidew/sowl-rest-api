@@ -2,7 +2,7 @@
 
 R::setup('mysql:host='.Config::$host.';dbname='.Config::$dbname, Config::$user, Config::$password);
 
-return function() : Generator {
+return function () : Generator {
     /** Test getAllScholarships() */
     yield function () {
         assert(!is_null(getAllScholarships()));
