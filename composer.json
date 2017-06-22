@@ -1,6 +1,7 @@
 {
     "require": {
-        "slim/slim": "^3.8"
+        "slim/slim": "^3.8",
+        "chadicus/slim-oauth2": "^3.1"
     },
     "require-dev": {
         "toast/unit": "^1.1"
