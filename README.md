@@ -10,6 +10,7 @@ REST API demo for scholarshipowl.com
 * slim
 * Toast
 * MySQL
+* chadicus/slim-oauth2
 
 ## Testing
 <code>vendor/bin/toast</code>
