@@ -11,6 +11,7 @@ REST API demo for scholarshipowl.com
 * Toast
 * MySQL
 * chadicus/slim-oauth2
+* RedBean
 
 ## Testing
 <code>vendor/bin/toast</code>
